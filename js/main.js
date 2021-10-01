@@ -2,9 +2,6 @@ const burgerBtn = document.querySelector('.burger');
 const burgerNav = document.querySelector('.burger-links');
 const links = document.querySelectorAll('.burger-links li a')
 
-
-
-
 const showBurgerNav = () => {
     burgerNav.classList.toggle('show-burger')
     if (burgerNav.classList.contains('show-burger')) {
